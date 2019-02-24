@@ -16,7 +16,6 @@ function addToCart(item) {
     [itemName]: ``,
     [itemPrice]: ``
   }
-  cart.itemName = item
   return `${itemName} has been added to your cart.`
 }
 
