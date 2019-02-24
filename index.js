@@ -16,7 +16,7 @@ function addToCart(item) {
     [itemName]: item,
     [itemPrice]: itemPrice
   }
-  return `${item} has been added to your cart.`
+  return `${itemName} has been added to your cart.`
 }
 
 function viewCart() {
