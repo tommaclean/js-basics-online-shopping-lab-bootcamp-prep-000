@@ -16,8 +16,6 @@ function addToCart(item) {
     [itemName]: "",
     [itemPrice]: ""
   }
-   cart.push(itemName)
-   cart.push(itemPrice)
    return cart
 }
 
