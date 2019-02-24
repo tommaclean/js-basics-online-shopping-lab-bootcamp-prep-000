@@ -18,6 +18,7 @@ function addToCart(item) {
   }
   cart.itemName = itemName
   cart.itemPrice = itemPrice
+  return `${itemName} has been added to your cart.`
 }
 
 function viewCart() {
