@@ -1,4 +1,4 @@
-var cart = {};
+var cart = [];
 
 function getCart() {
  return cart;
@@ -16,6 +16,8 @@ function addToCart(item) {
     [itemName]: "",
     [itemPrice]: ""
   }
+   cart.push(itemName)
+   cart.push(itemPrice)
    return cart
 }
 
