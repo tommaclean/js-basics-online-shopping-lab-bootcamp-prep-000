@@ -16,7 +16,8 @@ function addToCart(item) {
     [itemName]: "",
     [itemPrice]: ""
   }
-   return cart
+  cart.itemName = itemName
+  cart.itemPrice = itemPrice
 }
 
 function viewCart() {
