@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  var itemPrice = Math.random() * Math.floor(max)
+  var itemPrice = Math.floor(Math.random() / Math.floor(100));
   var cart = {itemName: "itemPrice"}
 }
 
