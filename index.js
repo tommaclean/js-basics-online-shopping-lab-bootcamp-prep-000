@@ -13,8 +13,8 @@ function addToCart(item) {
   var itemName = item;
   var itemPrice = Math.floor(Math.random() / Math.floor(100));
   var cart = { 
-    [itemName]: ``,
-    [itemPrice]: ``
+    [itemName]: "",
+    [itemPrice]: ""
   }
    return cart
 }
